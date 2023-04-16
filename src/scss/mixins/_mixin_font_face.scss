@@ -1,0 +1,6 @@
+// Font Face
+@mixin font-face($file-name,$font-name) {
+  $font-path: "~/assets/fonts/" + $file-name + ".woff";
+  font-family: $font-name;
+  src: url($font-path) format("woff");
+}

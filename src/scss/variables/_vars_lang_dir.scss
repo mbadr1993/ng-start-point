@@ -1,0 +1,15 @@
+$ltr: '[ dir = "ltr" ] :host-context';
+$rtl: '[ dir = "rtl" ] :host-context';
+
+/*******
+  For using code
+  Example:
+
+
+  #{$ltr} &{
+    Property: Value;
+  }
+*******/
+
+$ltr-global: '[ dir = "ltr" ]';
+$rtl-global: '[ dir = "rtl" ]';

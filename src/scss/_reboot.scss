@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+body {
+  /*
+  TODO: set body width and height
+  TODO: Set default font size and family
+  TODO: handle font size for bigger screens
+   */
+  overflow: hidden;
+}
+
+// reset all spacing and animation
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.35s ease-in-out;
+}
+
+// remove default text decoration for anchor tag
+a {
+  // TODO: set default style for all links
+  &:hover,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+// Always hide an element with the `hidden` HTML attribute (from PureCSS).
+// Needed for proper display in IE 10-.
+[hidden] {
+  display: none !important;
+}
