@@ -1,4 +1,17 @@
 // TODO: Define font family will be used and add all to map
+$font-family-thin: 'Roboto-Thin';
+$font-family-light: 'Roboto-Light';
+$font-family-regular: 'Roboto-Regular';
+$font-family-bold: 'Roboto-Bold';
+$font-family-black: 'Roboto-Black';
+
+$font-family-map:(
+  'roboto-thin':$font-family-thin,
+  'roboto-light':$font-family-light,
+  'roboto-regular':$font-family-regular,
+  'roboto-bold':$font-family-bold,
+  'roboto-black':$font-family-black,
+)
 // TODO: Define font sizes
 // TODO: Set all headers font sizes
 // TODO: Define map to contain all font sizes
